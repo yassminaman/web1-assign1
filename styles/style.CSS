@@ -1,0 +1,79 @@
+    
+
+   body {
+      
+       /* (almost) every element inside the body will inherit this text
+    size ,so you don't have to style every element separately */
+
+    /* to change the font, use font-family - this is also an 
+    inherited property */
+
+
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    }
+
+
+    
+ header,footer {
+         /* you can style multiple elements at the same time using a , */
+        background-color: brown;
+         }
+
+
+         
+.site-title{
+     /* sometimes you want to style multiple elements the same way, but
+can't target them based on tag name - for this, you can use class
+to target a class, use a . before the name */
+            color: rgb(0, 255, 255); 
+            }
+
+
+      /* to target an id on the page, use # */
+ #my-image {
+    /* to appky shadow to anything Horizontal,Vertical,Blur radius ,Spread radius and color*/
+    box-shadow: 0 0 1px 2px black;
+}
+ 
+/* you can change the style of a list using list-style */
+.hobbies{
+          /* would make bullets square */
+    list-style:square;
+    }
+
+
+    nav ul {
+        /* list-style:none; would remove all bullets */
+        list-style:none;
+        }
+        
+      
+
+
+        /* since links have a default style in the browser, we need to style them
+directly to override this */
+    a {   
+        /* to remove the underline... */
+        text-decoration: none;
+        /* to change background color */
+         background-color: lightblue;
+         /* to change border type size and color*/
+         border: 1px solid black;
+
+        }
+
+
+        a:hover {
+            /* to change the link in different "states", use pseudo-classes -
+like with the hover state */
+    background-color: yellow;
+          }
+
+         
+          a:active {
+            /* change the link when the user clicks (important for mobile) */
+    background-color: #0ccc5f;
+          }
+              
+           

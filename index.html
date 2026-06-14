@@ -4,19 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Assignment 1</title>
+    <!-- link href is to link CSS style to the HTML website -->
+    <link href="styles/style.CSS" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <!-- navigation is often organized in lists for easyer styling  -->
-        <ul>
+
+     <!-- a container div is common for sites, so the entire site can have a boundary -->
+   <div id="container">
+       <nav>
+           <!-- navigation is often organized in lists for easyer styling  -->
+           <ul>
              <!-- ul used to list links,item in unordered list ,used a bullet points -->
-            <li><a href="index.html">Home</a></li>
-            <li><a href="notes.html">Notes</a></li>
-        </ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="notes.html">Notes</a></li>
+           </ul>
     </nav>
+
     <!-- This is the main heading for the page -->
 <header>
-    <h1>Yasmin Aman</h1>
+    <h1 class="site-title">Yasmin Aman</h1>
 </header>
     
         <!-- I use <em> to emphasize text make it like italicas style, <abbr> for abbreviations for make something shorter,
@@ -26,13 +32,14 @@
         <!-- h it means heading , article for a self-contained piece of content , p represnte a paragraph -->
         <h2>About Me</h2>
          <!-- img it means image , with this code we can add a picture to the website-->
-        <img src="Image/yasmin.jpg"alt="Yasmin's photo"width="200">
+
+        <img id="my-image" src="image/yasmin.jpg" alt="My Photo" width="200">
         <p>My name is <em>Yasmin Ahmed Mohammed Aman</em>. I graduated with a degree in Computer Science
              from Sudan . I came from Sudai A rabia .This is my 2<sup>nd</sup> year in Canada. Over the past three years, I have worked 
              as a Graphic Designer, and I truly enjoy this field. Currently, I am studying <abbr title="Interactive Media Design">
              IMD</abbr> to expand my skills and knowledge in design and digital media.</p>
          <p>In my free time I reallay enjoy pursuing my hobbies, which include:</p>
-             <ul>
+             <ul class="hobbies">
                  <!-- ul used to list links,item in unordered list ,used a bullet points -->
                  <li>Cooking</li>
                  <li>Photography</li>
@@ -53,5 +60,6 @@
                <!-- &copy; is means copyrights for some one-->
                 <p>&copy; copyright 2026 Yasmin Aman.</p>
          </footer>
+  </div>
 </body>
 </html>
