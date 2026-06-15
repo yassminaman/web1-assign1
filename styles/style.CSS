@@ -49,8 +49,6 @@ to target a class, use a . before the name */
         list-style:none;
         }
         
-      
-
 
         /* since links have a default style in the browser, we need to style them
 directly to override this */
