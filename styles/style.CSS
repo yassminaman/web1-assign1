@@ -34,7 +34,7 @@ to target a class, use a . before the name */
        #my-image {
       /* to appky shadow to anything Horizontal,Vertical,Blur radius ,Spread radius and color*/
       box-shadow: 0 0 1px 2px black;
-      width: 200px; 
+      width: 300px; 
                 }
  
        /* you can change the style of a list using list-style */
@@ -47,9 +47,17 @@ to target a class, use a . before the name */
 
         nav ul {
         /* list-style:none; would remove all bullets */
-        list-style:none;
-        }
+             list-style:none;
+             padding: 0;
+             margin: 0;
+    
+                 }
         
+          nav {
+          text-align: left;
+           }
+
+
 
         /* since links have a default style in the browser, we need to style them
         directly to override this */
@@ -60,6 +68,7 @@ to target a class, use a . before the name */
               background-color: #f1cbcb;
              /* to change border type size and color*/
               border: 1px solid black;
+                
                }
 
 
@@ -67,12 +76,9 @@ to target a class, use a . before the name */
             /* to change the link in different "states", use pseudo-classes -
           like with the hover state */
            background-color: rgb(184, 27, 27);
+           color: white;
                  }
 
-         
-          a:active {
-            /* change the link when the user clicks (important for mobile) */
-          background-color: #9a9894;
-                     }
+    
               
            
