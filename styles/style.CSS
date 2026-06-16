@@ -17,7 +17,8 @@
     
      header,footer {
          /* you can style multiple elements at the same time using a , */
-        background-color: brown;
+        background-color: #a52a2a;
+        color: oklch(100% 0.00011 271.152);
                }
 
          
@@ -25,7 +26,7 @@
      /* sometimes you want to style multiple elements the same way, but
 can't target them based on tag name - for this, you can use class
 to target a class, use a . before the name */
-            color: rgb(0, 255, 255); 
+            color: oklch(100% 0.00011 271.152); 
                }
 
 
@@ -56,23 +57,22 @@ to target a class, use a . before the name */
             /* to remove the underline... */
              text-decoration: none;
              /* to change background color */
-              background-color: lightblue;
+              background-color: #f1cbcb;
              /* to change border type size and color*/
               border: 1px solid black;
-
                }
 
 
           a:hover {
             /* to change the link in different "states", use pseudo-classes -
           like with the hover state */
-           background-color: yellow;
+           background-color: rgb(184, 27, 27);
                  }
 
          
           a:active {
             /* change the link when the user clicks (important for mobile) */
-          background-color: #0ccc5f;
+          background-color: #9a9894;
                      }
               
            
